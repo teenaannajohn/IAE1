@@ -14,8 +14,7 @@ Created on Wed Dec 22 12:21:47 2021
 import numpy as np
 x=np.array( [[12, 7, 3],[4, 5, 6],[7, 8, 9]])
 y=np.array( [[10, 17, 3],[8, 1, 2],[3, 5, 7]])
-print("perform the operation 7x+Y^3=: \n",np.add((np.multiply(7,x)),(np.power(y,3))))
-np.add((np.multiply(7,x)),(np.power(y,3)))
+print("7x+Y^3=: \n",np.add((np.multiply(7,x)),(np.power(y,3))))
 res=x.dot(y)
 print ("Multiplication result:\n",res)
 x_diag=np.diag(x)
