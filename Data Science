@@ -25,7 +25,20 @@ print("y's Diagonal Elements:",y_diag)
 print("Rank of x:",np.linalg.matrix_rank(x))
 print("Rank of y:",np.linalg.matrix_rank(y))
 
+OUTPUT:
 
+7x+Y^3=: 
+ [[1084 4962   48]
+ [ 540   36   50]
+ [  76  181  406]]
+Multiplication result:
+ [[185 226  71]
+ [ 98 103  64]
+ [161 172 100]]
+x's Diagonal Elements: [12  5  9]
+y's Diagonal Elements: [10  1  7]
+Rank of x: 3
+Rank of y: 3
 
 
 2. Program to find the reverse of given number
@@ -40,3 +53,7 @@ while num != 0:
     num //= 10
 
 print("Reversed Number: ",reversed_num)
+
+OUTPUT:
+Enter the Number4567
+Reversed Number:  7654
